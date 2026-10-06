@@ -13,7 +13,6 @@ struct Args {
 fn main() {
     let args = Args::parse();
     echo(&args);
-    println!("{:?}", args.text);
 }
 
 fn echo(args: &Args) {
